@@ -20,4 +20,3 @@ __pycache__/
 *.fuse_hidden*
 *.vscode
 manage.py
-**/migrations
