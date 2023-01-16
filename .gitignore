@@ -1,0 +1,22 @@
+# Environments
+env
+venv
+.venv
+.idea
+
+# pyenv
+.python-version
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# General
+.sass-cache/
+.DS_Store
+*.swp
+*.sqlite3
+*.fuse_hidden*
+*.vscode
+manage.py
