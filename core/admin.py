@@ -16,7 +16,7 @@ class CourseAdmin(SimpleHistoryAdmin):
     search_fields = ('title',)
     readonly_fields = ('created_at', 'updated_at',)
     list_filter = ('status',)
-    history_list_display = ('id', 'status', 'title','categories__all')
+    # history_list_display = ('id', 'status', 'title','categories__all')
 
 @admin.register(Certificate)
 class CertificateAdmin(SimpleHistoryAdmin):
