@@ -120,5 +120,5 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-SIMPLE_HISTORY_REVERT_DISABLED=True
-SIMPLE_HISTORY_HISTORY_CHANGE_REASON_USE_TEXT_FIELD=True
+SIMPLE_HISTORY_REVERT_DISABLED = True
+SIMPLE_HISTORY_HISTORY_CHANGE_REASON_USE_TEXT_FIELD = True
